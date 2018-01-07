@@ -1,0 +1,26 @@
+<h1>Hello from Home Page</h1>
+
+<h4>Fill in the blanks of the below story...</h4>
+<p><span style='color: red';>"Name"</span> was going to the zoo to see the <span style='color: red';>"Animal"</span>. This
+ had become a tradition and he/she has been doing this for the past <span style='color: red';>"Number of Years"</span> years.</p>
+
+<form action='/finalstory' method="POST">
+    <div>
+        <label for='name'>Name: </label>
+        <input type='text' name='name'>
+    </div>
+    <br />
+    <div>
+        <label for='animal'>Animal: </label>
+        <input type='text' name='animal'>
+    </div>
+    <br />
+    <div>
+        <label for='years'>Number of Years: </label>
+        <input type='number' name='years'>
+    </div>
+    <br />
+    <div>
+        <button type='submit'>Submit</button>
+    </div>
+</form>
