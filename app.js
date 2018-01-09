@@ -32,10 +32,9 @@ app.get('/', (req, res) => {
 
 
 app.post('/', (req, res) => {
-    // console.log('Name: ' + req.body.name);
-    // console.log('Animal: ' + req.body.animal);
-    // console.log('Years: ' + req.body.years);
-    // res.redirect(303, '/success');
+    console.log('Name: ' + req.body.name);
+    console.log('Animal: ' + req.body.animal);
+    console.log('Years: ' + req.body.years);
     finalstory.push(req.body)
     res.send(finalstory)
     res.render(finalstory)
